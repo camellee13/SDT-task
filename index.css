@@ -1,0 +1,74 @@
+body {
+    color: #555;
+}
+
+header {
+    height:10rem;
+    margin-bottom: 2rem;
+}
+
+#header-sroll {
+    height: 10rem;
+    background:#a1c4fd;
+    border-bottom: 5px #c2e9fb solid;
+    float:left;
+    width:100%;
+    -ms-transition:     all 0.3s ease-out;
+    -moz-transition:    all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    -o-transition:      all 0.3s ease-out;
+    transition:         all 0.3s ease-out;
+}
+#header-sroll h1 {
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+    line-height: 10rem;
+     -ms-transition:    all 0.3s ease-out;
+    -moz-transition:    all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    -o-transition:      all 0.3s ease-out;
+    transition:         all 0.3s ease-out;
+}
+#header-sroll.small {
+    height: 5rem;
+}
+#header-sroll.small h1{
+    line-height: 5rem;
+    font-size: 2rem;
+}
+
+
+
+.btn {
+  flex: 1 1 auto;
+  margin: 10px;
+  padding: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+ /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+ }
+
+.btn:hover {
+  background-position: right center; /* change the direction of the change here */
+}
+
+.btn-4 {
+  background-image: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 51%, #a1c4fd 100%);
+}
+
+#taskList {
+    margin-top: 1rem;
+}
+
+#taskList h3 {
+    text-align: center;
+    color: #a1c4fd;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+}
